@@ -81,7 +81,7 @@ function monitorCoasters($redis, $logDir)
     foreach ($coasterKeys as $coasterKey) {
         // Pomijanie kluczy dodatkowych, np. :wagons
         if (str_contains($coasterKey, ':')) {
-            continue; // Pomijaj klucze takie jak coaster_test_1:wagons
+            continue; 
         }
 
         // Pobieranie danych kolejki

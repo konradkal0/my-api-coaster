@@ -25,7 +25,7 @@ return function (ContainerBuilder $containerBuilder) {
 
             // Zwróć obiekt ustawień
             return new Settings([
-                'displayErrorDetails' => true, // Pokazywanie szczegółów błędów (ustaw na false w produkcji)
+                'displayErrorDetails' => true, // Pokazywanie szczegółów błędów
                 'logError'            => true, // Logowanie błędów
                 'logErrorDetails'     => true, // Logowanie szczegółów błędów
                 'redis' => [
